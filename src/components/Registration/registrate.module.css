@@ -1,0 +1,72 @@
+.registration{
+  width: 30%;
+}
+.registration h3{
+  margin-bottom: 20px;
+}
+/* --------------------------------------- */
+form{
+  width: 100%;
+}
+
+.item{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.nameField{
+  justify-content: space-between;
+}
+.nameItem{
+  width: 49%;
+}
+
+label{
+  width: 100%;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  color: #758690;
+  margin-bottom: 8px;
+}
+
+.item input{
+  width: 100%;
+  border: 0.6px solid #758690;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.gender{
+  margin-bottom: 34px;
+}
+.genderItem{
+  width: 10%;
+  display: flex;
+}
+.genderItem input{
+  width: 20px;
+}
+
+.item button {
+  width: 100%;
+  background: #027EFF;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+
+.phoneNumber {
+  width: 100%;
+}
+.formControl{
+  width: 100%;
+}
